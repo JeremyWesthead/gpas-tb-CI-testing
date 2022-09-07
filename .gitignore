@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Cloned dirs
+tb-pipeline
+tb-predict-pipeline
+tuberculosis-amr-catalogues
