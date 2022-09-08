@@ -105,6 +105,54 @@ then
 
     #WHO
     sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-WHO/syn-illumina-WHO/output_vcfs/syn-illumina-WHO.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/tuberculosis_amr_catalogues/catalogues/NC_000962.3/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-WHO
+
+    #Testing that the files produced are the same
+    cd ..
+    #MDR
+    echo "MDR variants"
+    diff <(sort syn-illumina-MDR/syn-illumina-MDR/syn-illumina-MDR.variants.csv) <(sort expected/syn-illumina-MDR/syn-illuminaMDR.variants.csv)
+    echo
+    echo "MDR mutations"
+    diff <(sort syn-illumina-MDR/syn-illumina-MDR/syn-illumina-MDR.mutations.csv) <(sort expected/syn-illumina-MDR/syn-illuminaMDR.mutations.csv)
+    echo
+    echo "MDR effects"
+    diff <(sort syn-illumina-MDR/syn-illumina-MDR/syn-illumina-MDR.effects.csv) <(sort expected/syn-illumina-MDR/syn-illuminaMDR.effects.csv)
+    echo
+    
+    #preXDR
+    echo "preXDR variants"
+    diff <(sort syn-illumina-preXDR/syn-illumina-preXDR/syn-illumina-preXDR.variants.csv) <(sort expected/syn-illumina-preXDR/syn-illuminapreXDR.variants.csv)
+    echo
+    echo "preXDR mutations"
+    diff <(sort syn-illumina-preXDR/syn-illumina-preXDR/syn-illumina-preXDR.mutations.csv) <(sort expected/syn-illumina-preXDR/syn-illuminapreXDR.mutations.csv)
+    echo
+    echo "preXDR effects"
+    diff <(sort syn-illumina-preXDR/syn-illumina-preXDR/syn-illumina-preXDR.effects.csv) <(sort expected/syn-illumina-preXDR/syn-illuminapreXDR.effects.csv)
+    echo
+
+    #XDR
+    echo "XDR variants"
+    diff <(sort syn-illumina-XDR/syn-illumina-XDR/syn-illumina-XDR.variants.csv) <(sort expected/syn-illumina-XDR/syn-illuminaXDR.variants.csv)
+    echo
+    echo "XDR mutations"
+    diff <(sort syn-illumina-XDR/syn-illumina-XDR/syn-illumina-XDR.mutations.csv) <(sort expected/syn-illumina-XDR/syn-illuminaXDR.mutations.csv)
+    echo
+    echo "XDR effects"
+    diff <(sort syn-illumina-XDR/syn-illumina-XDR/syn-illumina-XDR.effects.csv) <(sort expected/syn-illumina-XDR/syn-illuminaXDR.effects.csv)
+    echo
+
+    #WHO
+    echo "WHO variants"
+    diff <(sort syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.variants.csv) <(sort expected/syn-illumina-WHO/syn-illuminaWHO.variants.csv)
+    echo
+    echo "WHO mutations"
+    diff <(sort syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.mutations.csv) <(sort expected/syn-illumina-WHO/syn-illuminaWHO.mutations.csv)
+    echo
+    echo "WHO effects"
+    diff <(sort syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.effects.csv) <(sort expected/syn-illumina-WHO/syn-illuminaWHO.effects.csv)
+    echo
+
+
 else
     echo "Errors with generating synthetics! $FAIL errors detected. See logs"
 fi
