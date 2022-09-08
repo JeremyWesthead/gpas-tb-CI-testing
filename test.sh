@@ -43,16 +43,16 @@ pip install .
 
 #As these take ages, run in parallel
 #MDR
-tb-synreads --reference ../H37rV_v3.gbk --depth 30 --read_length 300 --variant_file tests/tb-test-lineage4-MDR-rpoB@S450L-katG@S315T.txt  --output ../syn-illumina-MDR/syn-illumina-MDR  --verbose | ts '[%H:%M:%.S]' > MDR.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-MDR-rpoB@S450L-katG@S315T.txt  --output ../syn-illumina-MDR/syn-illumina-MDR  --verbose | ts '[%H:%M:%.S]' > MDR.log &
 
 #preXDR
-tb-synreads --reference ../H37rV_v3.gbk --depth 30 --read_length 300 --variant_file tests/tb-test-lineage4-preXDR-rpoB@S450L-gyrA@A90V-gyrA@S95T.txt  --output ../syn-illumina-preXDR/syn-illumina-preXDR  --verbose | ts '[%H:%M:%.S]' > preXDR.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-preXDR-rpoB@S450L-gyrA@A90V-gyrA@S95T.txt  --output ../syn-illumina-preXDR/syn-illumina-preXDR  --verbose | ts '[%H:%M:%.S]' > preXDR.log &
 
 #XDR
-tb-synreads --reference ../H37rV_v3.gbk --depth 30 --read_length 300 --variant_file tests/tb-test-lineage4-XDR-rpoB@S450L-gyrA@A90V-gyrA@S95T-rplC@C154R.txt   --output ../syn-illumina-XDR/syn-illumina-XDR  --verbose | ts '[%H:%M:%.S]' > XDR.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-XDR-rpoB@S450L-gyrA@A90V-gyrA@S95T-rplC@C154R.txt   --output ../syn-illumina-XDR/syn-illumina-XDR  --verbose | ts '[%H:%M:%.S]' > XDR.log &
 
 #WHO
-tb-synreads --reference ../H37rV_v3.gbk --depth 30 --read_length 300 --variant_file tests/tb-resistant-1.txt   --output ../syn-illumina-WHO/syn-illumina-WHO  --verbose | ts '[%H:%M:%.S]' > WHO.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-resistant-1.txt   --output ../syn-illumina-WHO/syn-illumina-WHO  --verbose | ts '[%H:%M:%.S]' > WHO.log &
 
 
 FAIL=0
