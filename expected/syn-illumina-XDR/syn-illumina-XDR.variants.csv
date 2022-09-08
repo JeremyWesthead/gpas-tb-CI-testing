@@ -1,0 +1,5 @@
+UNIQUEID,VARIANT,IS_SNP,NUCLEOTIDE_INDEX,IS_INDEL,IS_NULL,IS_HET,INDEL_LENGTH,INDEL_NUCLEOTIDES
+syn-illumina-XDR,761155c>t,True,761155,False,False,False,0,
+syn-illumina-XDR,7570c>t,True,7570,False,False,False,0,
+syn-illumina-XDR,7585g>c,True,7585,False,False,False,0,
+syn-illumina-XDR,801268t>c,True,801268,False,False,False,0,
