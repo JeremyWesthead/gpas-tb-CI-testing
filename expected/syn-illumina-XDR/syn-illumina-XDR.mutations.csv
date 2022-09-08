@@ -1,0 +1,5 @@
+UNIQUEID,GENE,MUTATION,NUCLEOTIDE_NUMBER,NUCLEOTIDE_INDEX,GENE_POSITION,ALT,REF,CODES_PROTEIN,INDEL_LENGTH,INDEL_NUCLEOTIDES,IS_CDS,IS_HET,IS_NULL,IS_PROMOTER,IS_SNP,AMINO_ACID_NUMBER,AMINO_ACID_SEQUENCE,IS_SYNONYMOUS,IS_NONSYNONYMOUS,NUMBER_NUCLEOTIDE_CHANGES
+syn-illumina-XDR,rpoB,S450L,,,450,tcg,ttg,True,,,True,False,False,False,True,450,L,False,True,1
+syn-illumina-XDR,gyrA,A90V,,,90,gcg,gtg,True,,,True,False,False,False,True,90,V,False,True,1
+syn-illumina-XDR,gyrA,S95T,,,95,agc,acc,True,,,True,False,False,False,True,95,T,False,True,1
+syn-illumina-XDR,rplC,C154R,,,154,tgt,cgt,True,,,True,False,False,False,True,154,R,False,True,1
