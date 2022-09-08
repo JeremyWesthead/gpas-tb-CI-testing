@@ -132,3 +132,10 @@ dmypy.json
 tb-pipeline
 tb-predict-pipeline
 tuberculosis-amr-catalogues
+gpas-testing/
+nextflow
+syn-illumina-MDR/
+syn-illumina-WHO/
+syn-illumina-XDR/
+syn-illumina-preXDR/
+tuberculosis_amr_catalogues/
