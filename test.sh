@@ -159,4 +159,5 @@ then
 
 else
     echo "Errors with generating synthetics! $FAIL errors detected. See logs"
+    exit 1
 fi
