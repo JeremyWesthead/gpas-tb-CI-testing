@@ -3,6 +3,21 @@
 #As this is to be run using a CI runner, it is assumed that there are minimal tools already present
 #Clone and setup the appropriate tools
 
+#Download kraken
+mkdir kraken
+cd kraken
+echo "Downloding Kraken"
+curl --progress-bar https://genome-idx.s3.amazonaws.com/kraken/k2_pluspf_16gb_20220607.tar.gz > kraken.tar.gz
+tar -xzvf kraken.tar.gz
+cd ..
+
+echo "Downloading Bowtie2"
+mkdir bowtie2
+curl --progress-bar https://genome-idx.s3.amazonaws.com/bt/hg19.zip > bowtie2.zip
+unzip bowtie2.zip
+cd ..
+
+
 #Nextflow setup
 #Install JDK
 curl -s https://get.sdkman.io | bash
@@ -78,16 +93,16 @@ then
     export NXF_VER=20.11.0-edge
 
     #MDR
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-MDR --unmix_myco no --output_dir ../syn-illumina-MDR/  --kraken_db ~/kraken/ --bowtie2_index ~/bowtie2/ --bowtie_index_name hg19_1kgmaj --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-MDR --unmix_myco no --output_dir ../syn-illumina-MDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
 
     #preXDR
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-preXDR --unmix_myco no --output_dir ../syn-illumina-preXDR/  --kraken_db ~/kraken/ --bowtie2_index ~/bowtie2/ --bowtie_index_name hg19_1kgmaj --species tuberculosis --pattern "*{1,2}.fastq"  --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-preXDR --unmix_myco no --output_dir ../syn-illumina-preXDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq"  --vcfmix no --gnomon no
 
     #XDR
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-XDR --unmix_myco no --output_dir ../syn-illumina-XDR/  --kraken_db ~/kraken/ --bowtie2_index ~/bowtie2/ --bowtie_index_name hg19_1kgmaj --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-XDR --unmix_myco no --output_dir ../syn-illumina-XDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
 
     #WHO
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-WHO --unmix_myco no --output_dir ../syn-illumina-WHO/  --kraken_db ~/kraken/ --bowtie2_index ~/bowtie2/ --bowtie_index_name hg19_1kgmaj --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-WHO --unmix_myco no --output_dir ../syn-illumina-WHO/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
 
     #Run the prediction pipelines
     cd ..
