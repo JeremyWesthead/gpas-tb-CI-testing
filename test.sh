@@ -95,16 +95,16 @@ then
     cd tb-predict-pipeline
 
     #MDR
-    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-MDR/syn-illumina-MDR/output_vcfs/syn-illumina-MDR.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/tuberculosis_amr_catalogues/catalogues/NC_000962.3/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-MDR
+    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-MDR/syn-illumina-MDR/output_vcfs/syn-illumina-MDR.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-MDR
 
     #preXDR
-    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-preXDR/syn-illumina-preXDR/output_vcfs/syn-illumina-preXDR.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/tuberculosis_amr_catalogues/catalogues/NC_000962.3/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-preXDR
+    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-preXDR/syn-illumina-preXDR/output_vcfs/syn-illumina-preXDR.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-preXDR
 
     #XDR
-    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-XDR/syn-illumina-XDR/output_vcfs/syn-illumina-XDR.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/tuberculosis_amr_catalogues/catalogues/NC_000962.3/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-XDR
+    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-XDR/syn-illumina-XDR/output_vcfs/syn-illumina-XDR.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-XDR
 
     #WHO
-    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-WHO/syn-illumina-WHO/output_vcfs/syn-illumina-WHO.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/tuberculosis_amr_catalogues/catalogues/NC_000962.3/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-WHO
+    sudo nextflow run . -latest -profile docker --sample $baseDir/syn-illumina-WHO/syn-illumina-WHO/output_vcfs/syn-illumina-WHO.minos.vcf --reference $baseDir/H37rV_v3.gbk --catalogue $baseDir/WHO-UCN-GTB-PCI-2021.7.GARC.csv --output_dir $baseDir/syn-illumina-WHO
 
     #Testing that the files produced are the same
     cd ..
