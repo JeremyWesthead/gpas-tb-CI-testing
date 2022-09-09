@@ -1,7 +1,7 @@
 name: Tests
-on:
-  schedule:
-    - cron: '00 17 * * 5'
+on: [push]
+  # schedule:
+  #   - cron: '00 17 * * 5'
 
 jobs:
   build:
