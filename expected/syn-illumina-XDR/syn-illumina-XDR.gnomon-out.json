@@ -1,0 +1,146 @@
+{
+  "data": {
+    "EFFECTS": {
+      "LEV": [
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A90V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "S95T",
+          "PREDICTION": "S"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "LZD": [
+        {
+          "GENE": "rplC",
+          "MUTATION": "C154R",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "MXF": [
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A90V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "S95T",
+          "PREDICTION": "S"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "RIF": [
+        {
+          "GENE": "rpoB",
+          "MUTATION": "S450L",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ]
+    },
+    "MUTATIONS": [
+      {
+        "GENE": "rpoB",
+        "GENE_POSITION": 450,
+        "MUTATION": "S450L"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 90,
+        "MUTATION": "A90V"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 95,
+        "MUTATION": "S95T"
+      },
+      {
+        "GENE": "rplC",
+        "GENE_POSITION": 154,
+        "MUTATION": "C154R"
+      }
+    ],
+    "VARIANTS": [
+      {
+        "NUCLEOTIDE_INDEX": 761155,
+        "VARIANT": "761155c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 7570,
+        "VARIANT": "7570c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 7585,
+        "VARIANT": "7585g>c"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 801268,
+        "VARIANT": "801268t>c"
+      }
+    ]
+  },
+  "meta": {
+    "UTC-datetime-run": "2022-09-09T11:05:17.327458",
+    "fields": {
+      "EFFECTS": {
+        "LEV": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "LZD": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "MXF": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "RIF": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ]
+      },
+      "MUTATIONS": [
+        "MUTATION",
+        "GENE",
+        "GENE_POSITION"
+      ],
+      "VARIANTS": [
+        "VARIANT",
+        "NUCLEOTIDE_INDEX"
+      ]
+    },
+    "guid": "syn-illumina-XDR",
+    "version": "1.0.0"
+  }
+}

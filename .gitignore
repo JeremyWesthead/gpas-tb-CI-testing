@@ -139,3 +139,4 @@ syn-illumina-WHO/
 syn-illumina-XDR/
 syn-illumina-preXDR/
 tuberculosis_amr_catalogues/
+!expected/**

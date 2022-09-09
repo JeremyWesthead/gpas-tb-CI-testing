@@ -152,6 +152,10 @@ then
     diff <(sort syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.effects.csv) <(sort expected/syn-illumina-WHO/syn-illumina-WHO.effects.csv)
     echo
 
+    #Now make sure the JSONs are the same with a pytest
+    pip install pytest recursive_diff
+    pytest -vv
+
 
 else
     echo "Errors with generating synthetics! $FAIL errors detected. See logs"

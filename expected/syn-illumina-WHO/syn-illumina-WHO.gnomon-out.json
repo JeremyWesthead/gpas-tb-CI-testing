@@ -1,0 +1,704 @@
+{
+  "data": {
+    "EFFECTS": {
+      "AMI": [
+        {
+          "GENE": "rrs",
+          "MUTATION": "a1401g",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "CAP": [
+        {
+          "GENE": "rrs",
+          "MUTATION": "a1401g",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "tlyA",
+          "MUTATION": "95_del_gcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccgac",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "tlyA",
+          "MUTATION": "95_del_49",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "tlyA",
+          "MUTATION": "95_indel",
+          "PREDICTION": "U"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "EMB": [
+        {
+          "GENE": "embB",
+          "MUTATION": "M306I",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "ETH": [
+        {
+          "GENE": "ethA",
+          "MUTATION": "V419V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "ethA",
+          "MUTATION": "V419V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": NaN,
+          "MUTATION": "ethA@E420R&ethA@P422T&ethA@R421A&ethA@V419V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": NaN,
+          "MUTATION": "gid@54_del_tgctcggcggtacgccgaa&gid@G34G",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "54_del_tgctcggcggtacgccgaa",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "54_del_19",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "54_indel",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "ethA",
+          "MUTATION": "E420R",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "ethA",
+          "MUTATION": "P422T",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "ethA",
+          "MUTATION": "R421A",
+          "PREDICTION": "U"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "INH": [
+        {
+          "GENE": "katG",
+          "MUTATION": "S315T",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "katG",
+          "MUTATION": "1441_ins_ctagtttcgaccgcatgggcggcggcg",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "katG",
+          "MUTATION": "1441_ins_27",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "katG",
+          "MUTATION": "1441_indel",
+          "PREDICTION": "U"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "KAN": [
+        {
+          "GENE": "rrs",
+          "MUTATION": "a1401g",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "LEV": [
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A90V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R448R",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A384V",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "S95T",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "c-34t",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": NaN,
+          "MUTATION": "gyrA@A434A&gyrA@A445A&gyrA@E447E&gyrA@L440L&gyrA@R441R&gyrA@R442R&gyrA@R448R",
+          "PREDICTION": "U"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "MXF": [
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A90V",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A384V",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "S95T",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "c-34t",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A434A",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A445A",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "E447E",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "L440L",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R441R",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R442R",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R448R",
+          "PREDICTION": "S"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "PZA": [
+        {
+          "GENE": "pncA",
+          "MUTATION": "D136N",
+          "PREDICTION": "S"
+        },
+        {
+          "PHENOTYPE": "S"
+        }
+      ],
+      "RIF": [
+        {
+          "GENE": "rpoB",
+          "MUTATION": "S450L",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ],
+      "STM": [
+        {
+          "GENE": "gid",
+          "MUTATION": "G34G",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "G34G",
+          "PREDICTION": "R"
+        },
+        {
+          "PHENOTYPE": "R"
+        }
+      ]
+    },
+    "MUTATIONS": [
+      {
+        "GENE": "rpoB",
+        "GENE_POSITION": 450,
+        "MUTATION": "S450L"
+      },
+      {
+        "GENE": "katG",
+        "GENE_POSITION": 315,
+        "MUTATION": "S315T"
+      },
+      {
+        "GENE": "pncA",
+        "GENE_POSITION": 136,
+        "MUTATION": "D136N"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 90,
+        "MUTATION": "A90V"
+      },
+      {
+        "GENE": "embB",
+        "GENE_POSITION": 306,
+        "MUTATION": "M306I"
+      },
+      {
+        "GENE": "rrs",
+        "GENE_POSITION": 1401,
+        "MUTATION": "a1401g"
+      },
+      {
+        "GENE": "rpoB",
+        "GENE_POSITION": 1291,
+        "MUTATION": "1291_ins_cca"
+      },
+      {
+        "GENE": "rpoB",
+        "GENE_POSITION": 1291,
+        "MUTATION": "1291_ins_3"
+      },
+      {
+        "GENE": "rpoB",
+        "GENE_POSITION": 1291,
+        "MUTATION": "1291_indel"
+      },
+      {
+        "GENE": "ethA",
+        "GENE_POSITION": 419,
+        "MUTATION": "V419V"
+      },
+      {
+        "GENE": "ethA",
+        "GENE_POSITION": 420,
+        "MUTATION": "E420R"
+      },
+      {
+        "GENE": "ethA",
+        "GENE_POSITION": 421,
+        "MUTATION": "R421A"
+      },
+      {
+        "GENE": "ethA",
+        "GENE_POSITION": 422,
+        "MUTATION": "P422T"
+      },
+      {
+        "GENE": "katG",
+        "GENE_POSITION": 1441,
+        "MUTATION": "1441_ins_ctagtttcgaccgcatgggcggcggcg"
+      },
+      {
+        "GENE": "katG",
+        "GENE_POSITION": 1441,
+        "MUTATION": "1441_ins_27"
+      },
+      {
+        "GENE": "katG",
+        "GENE_POSITION": 1441,
+        "MUTATION": "1441_indel"
+      },
+      {
+        "GENE": "tlyA",
+        "GENE_POSITION": 95,
+        "MUTATION": "95_del_tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga"
+      },
+      {
+        "GENE": "tlyA",
+        "GENE_POSITION": 95,
+        "MUTATION": "95_del_49"
+      },
+      {
+        "GENE": "tlyA",
+        "GENE_POSITION": 95,
+        "MUTATION": "95_indel"
+      },
+      {
+        "GENE": "gid",
+        "GENE_POSITION": 54,
+        "MUTATION": "54_del_ttcggcgtaccgccgagca"
+      },
+      {
+        "GENE": "gid",
+        "GENE_POSITION": 54,
+        "MUTATION": "54_del_19"
+      },
+      {
+        "GENE": "gid",
+        "GENE_POSITION": 54,
+        "MUTATION": "54_indel"
+      },
+      {
+        "GENE": "gid",
+        "GENE_POSITION": 34,
+        "MUTATION": "G34G"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 434,
+        "MUTATION": "A434A"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 434,
+        "MUTATION": "A445A"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 447,
+        "MUTATION": "E447E"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 440,
+        "MUTATION": "L440L"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 441,
+        "MUTATION": "R441R"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 442,
+        "MUTATION": "R442R"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 448,
+        "MUTATION": "R448R"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 384,
+        "MUTATION": "A384V"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 95,
+        "MUTATION": "S95T"
+      },
+      {
+        "GENE": "rrs",
+        "GENE_POSITION": 1483,
+        "MUTATION": "g1483t"
+      },
+      {
+        "GENE": "rrs",
+        "GENE_POSITION": 513,
+        "MUTATION": "a513c"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": -34,
+        "MUTATION": "c-34t"
+      }
+    ],
+    "VARIANTS": [
+      {
+        "NUCLEOTIDE_INDEX": 761155,
+        "VARIANT": "761155c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 2155168,
+        "VARIANT": "2155168c>g"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 2288836,
+        "VARIANT": "2288836c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 7570,
+        "VARIANT": "7570c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4247431,
+        "VARIANT": "4247431g>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 1473246,
+        "VARIANT": "1473246a>g"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 761097,
+        "VARIANT": "761097_ins_cca"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 761097,
+        "VARIANT": "761097_ins_3"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 761097,
+        "VARIANT": "761097_indel"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4326217,
+        "VARIANT": "4326217g>a"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4326216,
+        "VARIANT": "4326216c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4326215,
+        "VARIANT": "4326215t>c"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4326213,
+        "VARIANT": "4326213g>c"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4326212,
+        "VARIANT": "4326212c>g"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4326210,
+        "VARIANT": "4326210g>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 2154671,
+        "VARIANT": "2154671_ins_cgccgccgcccatgcggtcgaaactag"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 2154671,
+        "VARIANT": "2154671_ins_27"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 2154671,
+        "VARIANT": "2154671_indel"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 1918034,
+        "VARIANT": "1918034_del_tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 1918034,
+        "VARIANT": "1918034_del_49"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 1918034,
+        "VARIANT": "1918034_indel"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4408131,
+        "VARIANT": "4408131_del_ttcggcgtaccgccgagca"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4408131,
+        "VARIANT": "4408131_del_19"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4408131,
+        "VARIANT": "4408131_indel"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 4408101,
+        "VARIANT": "4408101c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8603,
+        "VARIANT": "8603a>g"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8636,
+        "VARIANT": "8636a>g"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8642,
+        "VARIANT": "8642a>g"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8621,
+        "VARIANT": "8621g>a"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8624,
+        "VARIANT": "8624g>a"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8627,
+        "VARIANT": "8627c>a"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8645,
+        "VARIANT": "8645c>a"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 8452,
+        "VARIANT": "8452c>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 7585,
+        "VARIANT": "7585g>c"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 1473329,
+        "VARIANT": "1473329g>t"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 1472359,
+        "VARIANT": "1472359a>c"
+      },
+      {
+        "NUCLEOTIDE_INDEX": 7268,
+        "VARIANT": "7268c>t"
+      }
+    ]
+  },
+  "meta": {
+    "UTC-datetime-run": "2022-09-09T11:06:54.004489",
+    "fields": {
+      "EFFECTS": {
+        "AMI": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "CAP": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "EMB": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "ETH": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "INH": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "KAN": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "LEV": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "MXF": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "PZA": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "RIF": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ],
+        "STM": [
+          [
+            "GENE",
+            "MUTATION",
+            "PREDICTION"
+          ],
+          "PHENOTYPE"
+        ]
+      },
+      "MUTATIONS": [
+        "MUTATION",
+        "GENE",
+        "GENE_POSITION"
+      ],
+      "VARIANTS": [
+        "VARIANT",
+        "NUCLEOTIDE_INDEX"
+      ]
+    },
+    "guid": "syn-illumina-WHO",
+    "version": "1.0.0"
+  }
+}
