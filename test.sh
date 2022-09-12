@@ -37,6 +37,7 @@ echo "*****************"
 echo $(df -h /)
 echo "*****************"
 echo
+sudo apt install moreutils
 
 #Python/pip
 python3 -m pip install --upgrade pip
