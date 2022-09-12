@@ -23,7 +23,7 @@ jobs:
         python-version: 3.9
 
     - name: Get the disk space free
-      run: df -h .
+      run: df -h /
 
     - name: Setup and test
       run: |

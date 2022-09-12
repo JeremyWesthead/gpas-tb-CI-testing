@@ -15,6 +15,7 @@ cd ..
 
 echo "Downloading Bowtie2"
 mkdir bowtie2
+cd bowtie2
 curl --progress-bar https://genome-idx.s3.amazonaws.com/bt/hg19.zip > bowtie2.zip
 unzip bowtie2.zip
 #Remove the zip now it has been expanded to save on space
