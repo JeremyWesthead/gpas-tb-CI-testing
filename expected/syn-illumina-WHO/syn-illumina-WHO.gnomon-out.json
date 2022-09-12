@@ -8,6 +8,16 @@
           "PREDICTION": "R"
         },
         {
+          "GENE": "rrs",
+          "MUTATION": "g1484t",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "rrs",
+          "MUTATION": "a514c",
+          "PREDICTION": "S"
+        },
+        {
           "PHENOTYPE": "R"
         }
       ],
@@ -18,8 +28,18 @@
           "PREDICTION": "R"
         },
         {
+          "GENE": "rrs",
+          "MUTATION": "g1484t",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "rrs",
+          "MUTATION": "a514c",
+          "PREDICTION": "S"
+        },
+        {
           "GENE": "tlyA",
-          "MUTATION": "95_del_gcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccgac",
+          "MUTATION": "95_del_tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga",
           "PREDICTION": "R"
         },
         {
@@ -50,37 +70,12 @@
         {
           "GENE": "ethA",
           "MUTATION": "V419V",
-          "PREDICTION": "R"
-        },
-        {
-          "GENE": "ethA",
-          "MUTATION": "V419V",
-          "PREDICTION": "R"
+          "PREDICTION": "S"
         },
         {
           "GENE": NaN,
           "MUTATION": "ethA@E420R&ethA@P422T&ethA@R421A&ethA@V419V",
           "PREDICTION": "R"
-        },
-        {
-          "GENE": NaN,
-          "MUTATION": "gid@54_del_tgctcggcggtacgccgaa&gid@G34G",
-          "PREDICTION": "R"
-        },
-        {
-          "GENE": "gid",
-          "MUTATION": "54_del_tgctcggcggtacgccgaa",
-          "PREDICTION": "U"
-        },
-        {
-          "GENE": "gid",
-          "MUTATION": "54_del_19",
-          "PREDICTION": "U"
-        },
-        {
-          "GENE": "gid",
-          "MUTATION": "54_indel",
-          "PREDICTION": "U"
         },
         {
           "GENE": "ethA",
@@ -133,6 +128,16 @@
           "PREDICTION": "R"
         },
         {
+          "GENE": "rrs",
+          "MUTATION": "g1484t",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "rrs",
+          "MUTATION": "a514c",
+          "PREDICTION": "S"
+        },
+        {
           "PHENOTYPE": "R"
         }
       ],
@@ -141,11 +146,6 @@
           "GENE": "gyrA",
           "MUTATION": "A90V",
           "PREDICTION": "R"
-        },
-        {
-          "GENE": "gyrA",
-          "MUTATION": "R448R",
-          "PREDICTION": "U"
         },
         {
           "GENE": "gyrA",
@@ -166,6 +166,41 @@
           "GENE": NaN,
           "MUTATION": "gyrA@A434A&gyrA@A445A&gyrA@E447E&gyrA@L440L&gyrA@R441R&gyrA@R442R&gyrA@R448R",
           "PREDICTION": "U"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A434A",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "A445A",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "E447E",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "L440L",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R441R",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R442R",
+          "PREDICTION": "S"
+        },
+        {
+          "GENE": "gyrA",
+          "MUTATION": "R448R",
+          "PREDICTION": "S"
         },
         {
           "PHENOTYPE": "R"
@@ -248,19 +283,64 @@
           "PREDICTION": "R"
         },
         {
+          "GENE": "rpoB",
+          "MUTATION": "1291_ins_cca",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "rpoB",
+          "MUTATION": "1291_ins_3",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "rpoB",
+          "MUTATION": "1291_indel",
+          "PREDICTION": "U"
+        },
+        {
           "PHENOTYPE": "R"
         }
       ],
       "STM": [
         {
-          "GENE": "gid",
-          "MUTATION": "G34G",
+          "GENE": "rrs",
+          "MUTATION": "a1401g",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "rrs",
+          "MUTATION": "g1484t",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "rrs",
+          "MUTATION": "a514c",
           "PREDICTION": "R"
         },
         {
           "GENE": "gid",
           "MUTATION": "G34G",
           "PREDICTION": "R"
+        },
+        {
+          "GENE": NaN,
+          "MUTATION": "gid@54_del_tgctcggcggtacgccgaa&gid@G34G",
+          "PREDICTION": "R"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "54_del_tgctcggcggtacgccgaa",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "54_indel",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "G34G",
+          "PREDICTION": "S"
         },
         {
           "PHENOTYPE": "R"
@@ -366,7 +446,7 @@
       {
         "GENE": "gid",
         "GENE_POSITION": 54,
-        "MUTATION": "54_del_ttcggcgtaccgccgagca"
+        "MUTATION": "54_del_tgctcggcggtacgccgaa"
       },
       {
         "GENE": "gid",
@@ -390,7 +470,7 @@
       },
       {
         "GENE": "gyrA",
-        "GENE_POSITION": 434,
+        "GENE_POSITION": 445,
         "MUTATION": "A445A"
       },
       {
@@ -431,12 +511,12 @@
       {
         "GENE": "rrs",
         "GENE_POSITION": 1483,
-        "MUTATION": "g1483t"
+        "MUTATION": "g1484t"
       },
       {
         "GENE": "rrs",
         "GENE_POSITION": 513,
-        "MUTATION": "a513c"
+        "MUTATION": "a514c"
       },
       {
         "GENE": "gyrA",
@@ -596,7 +676,7 @@
     ]
   },
   "meta": {
-    "UTC-datetime-run": "2022-09-09T11:06:54.004489",
+    "UTC-datetime-run": "2022-09-12T13:46:31.304369",
     "fields": {
       "EFFECTS": {
         "AMI": [

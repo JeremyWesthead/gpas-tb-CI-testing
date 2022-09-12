@@ -18,9 +18,9 @@ syn-illumina-WHO,katG,1441_indel,1441,2154671,1441,,,True,27,ctagtttcgaccgcatggg
 syn-illumina-WHO,tlyA,95_del_tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga,95,1918034,95,,,True,-49,tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga,True,False,False,False,False,,,False,False,0
 syn-illumina-WHO,tlyA,95_del_49,95,1918034,95,,,True,-49,tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga,True,False,False,False,False,,,False,False,0
 syn-illumina-WHO,tlyA,95_indel,95,1918034,95,,,True,-49,tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga,True,False,False,False,False,,,False,False,0
-syn-illumina-WHO,gid,54_del_ttcggcgtaccgccgagca,54,4408131,54,,,True,-19,ttcggcgtaccgccgagca,True,False,False,False,False,,,False,False,0
-syn-illumina-WHO,gid,54_del_19,54,4408131,54,,,True,-19,ttcggcgtaccgccgagca,True,False,False,False,False,,,False,False,0
-syn-illumina-WHO,gid,54_indel,54,4408131,54,,,True,-19,ttcggcgtaccgccgagca,True,False,False,False,False,,,False,False,0
+syn-illumina-WHO,gid,54_del_tgctcggcggtacgccgaa,54,4408131,54,,,True,-19,tgctcggcggtacgccgaa,True,False,False,False,False,,,False,False,0
+syn-illumina-WHO,gid,54_del_19,54,4408131,54,,,True,-19,tgctcggcggtacgccgaa,True,False,False,False,False,,,False,False,0
+syn-illumina-WHO,gid,54_indel,54,4408131,54,,,True,-19,tgctcggcggtacgccgaa,True,False,False,False,False,,,False,False,0
 syn-illumina-WHO,gid,G34G,,,34,gga,ggg,True,,,True,False,False,False,True,34,G,True,False,1
 syn-illumina-WHO,gyrA,A434A,,,434,gcg,gca,True,,,True,False,False,False,True,434,A,True,False,1
 syn-illumina-WHO,gyrA,A445A,,,445,gcg,gca,True,,,True,False,False,False,True,445,A,True,False,1
@@ -31,6 +31,6 @@ syn-illumina-WHO,gyrA,R442R,,,442,cga,cgc,True,,,True,False,False,False,True,442
 syn-illumina-WHO,gyrA,R448R,,,448,cga,cgc,True,,,True,False,False,False,True,448,R,True,False,1
 syn-illumina-WHO,gyrA,A384V,,,384,gta,gca,True,,,True,False,False,False,True,384,V,False,True,1
 syn-illumina-WHO,gyrA,S95T,,,95,acc,agc,True,,,True,False,False,False,True,95,T,False,True,1
-syn-illumina-WHO,rrs,g1483t,1483,1473329,1483,t,g,False,,,False,False,False,False,True,,,False,False,0
-syn-illumina-WHO,rrs,a513c,513,1472359,513,c,a,False,,,False,False,False,False,True,,,False,False,0
+syn-illumina-WHO,rrs,g1484t,1484,1473329,1483,t,g,False,,,False,False,False,False,True,,,False,False,0
+syn-illumina-WHO,rrs,a514c,514,1472359,513,c,a,False,,,False,False,False,False,True,,,False,False,0
 syn-illumina-WHO,gyrA,c-34t,-34,7268,-34,t,c,True,,,False,False,False,True,True,,,False,False,0
