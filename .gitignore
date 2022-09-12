@@ -140,3 +140,7 @@ syn-illumina-XDR/
 syn-illumina-preXDR/
 tuberculosis_amr_catalogues/
 !expected/**
+#Some debug things
+**/*.sorted.csv
+*.csv
+*.json

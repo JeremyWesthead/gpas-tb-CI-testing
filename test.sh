@@ -71,21 +71,21 @@ pip install .
 #As these take ages, run in parallel (or actually don't due to disk space concerns)
 #MDR
 tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-MDR-rpoB@S450L-katG@S315T.txt  --output ../syn-illumina-MDR/syn-illumina-MDR  --verbose | ts '[%H:%M:%.S]' > MDR.log
-gzip syn-illumina-MDR/syn-illumina-MDR*
+gzip ../syn-illumina-MDR/syn-illumina-MDR*
 
 #preXDR
 tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-preXDR-rpoB@S450L-gyrA@A90V-gyrA@S95T.txt  --output ../syn-illumina-preXDR/syn-illumina-preXDR  --verbose | ts '[%H:%M:%.S]' > preXDR.log
-gzip syn-illumina-preXDR/syn-illumina-preXDR*
+gzip ../syn-illumina-preXDR/syn-illumina-preXDR*
 
 
 #XDR
 tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-XDR-rpoB@S450L-gyrA@A90V-gyrA@S95T-rplC@C154R.txt   --output ../syn-illumina-XDR/syn-illumina-XDR  --verbose | ts '[%H:%M:%.S]' > XDR.log
-gzip syn-illumina-XDR/syn-illumina-XDR*
+gzip ../syn-illumina-XDR/syn-illumina-XDR*
 
 
 #WHO
 tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-resistant-1.txt   --output ../syn-illumina-WHO/syn-illumina-WHO  --verbose | ts '[%H:%M:%.S]' > WHO.log
-gzip syn-illumina-WHO/syn-illumina-WHO*
+gzip ../syn-illumina-WHO/syn-illumina-WHO*
 
 
 FAIL=0
