@@ -32,6 +32,12 @@ curl -s https://get.nextflow.io | bash
 chmod a+x nextflow
 sudo cp nextflow /usr/local/bin
 
+echo
+echo "*****************"
+echo $(df -h /)
+echo "*****************"
+echo
+
 #Python/pip
 python3 -m pip install --upgrade pip
 
@@ -60,27 +66,33 @@ git checkout fixMDRMutation
 pip install .
 
 
-#As these take ages, run in parallel
+#As these take ages, run in parallel (or actually don't due to disk space concerns)
 #MDR
-tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-MDR-rpoB@S450L-katG@S315T.txt  --output ../syn-illumina-MDR/syn-illumina-MDR  --verbose | ts '[%H:%M:%.S]' > MDR.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-MDR-rpoB@S450L-katG@S315T.txt  --output ../syn-illumina-MDR/syn-illumina-MDR  --verbose | ts '[%H:%M:%.S]' > MDR.log
+gzip syn-illumina-MDR/syn-illumina-MDR*
 
 #preXDR
-tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-preXDR-rpoB@S450L-gyrA@A90V-gyrA@S95T.txt  --output ../syn-illumina-preXDR/syn-illumina-preXDR  --verbose | ts '[%H:%M:%.S]' > preXDR.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-preXDR-rpoB@S450L-gyrA@A90V-gyrA@S95T.txt  --output ../syn-illumina-preXDR/syn-illumina-preXDR  --verbose | ts '[%H:%M:%.S]' > preXDR.log
+gzip syn-illumina-preXDR/syn-illumina-preXDR*
+
 
 #XDR
-tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-XDR-rpoB@S450L-gyrA@A90V-gyrA@S95T-rplC@C154R.txt   --output ../syn-illumina-XDR/syn-illumina-XDR  --verbose | ts '[%H:%M:%.S]' > XDR.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-test-lineage4-XDR-rpoB@S450L-gyrA@A90V-gyrA@S95T-rplC@C154R.txt   --output ../syn-illumina-XDR/syn-illumina-XDR  --verbose | ts '[%H:%M:%.S]' > XDR.log
+gzip syn-illumina-XDR/syn-illumina-XDR*
+
 
 #WHO
-tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-resistant-1.txt   --output ../syn-illumina-WHO/syn-illumina-WHO  --verbose | ts '[%H:%M:%.S]' > WHO.log &
+tb-synreads --reference ../H37rV_v3.gbk --depth 50 --read_length 300 --variant_file tests/tb-resistant-1.txt   --output ../syn-illumina-WHO/syn-illumina-WHO  --verbose | ts '[%H:%M:%.S]' > WHO.log
+gzip syn-illumina-WHO/syn-illumina-WHO*
 
 
 FAIL=0
 
-for job in `jobs -p`
-do
-echo $job
-    wait $job || let "FAIL+=1"
-done
+# for job in `jobs -p`
+# do
+# echo $job
+#     wait $job || let "FAIL+=1"
+# done
 
 echo $FAIL
 
@@ -97,16 +109,16 @@ then
     export NXF_VER=20.11.0-edge
 
     #MDR
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-MDR --unmix_myco no --output_dir ../syn-illumina-MDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-MDR --unmix_myco no --output_dir ../syn-illumina-MDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq.gz" --vcfmix no --gnomon no
 
     #preXDR
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-preXDR --unmix_myco no --output_dir ../syn-illumina-preXDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq"  --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-preXDR --unmix_myco no --output_dir ../syn-illumina-preXDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq.gz"  --vcfmix no --gnomon no
 
     #XDR
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-XDR --unmix_myco no --output_dir ../syn-illumina-XDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-XDR --unmix_myco no --output_dir ../syn-illumina-XDR/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq.gz" --vcfmix no --gnomon no
 
     #WHO
-    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-WHO --unmix_myco no --output_dir ../syn-illumina-WHO/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq" --vcfmix no --gnomon no
+    sudo nextflow run main.nf -profile docker --filetype fastq --input_dir ../syn-illumina-WHO --unmix_myco no --output_dir ../syn-illumina-WHO/  --kraken_db ../kraken/ --bowtie2_index ../bowtie2/ --bowtie_index_name hg19 --species tuberculosis --pattern "*{1,2}.fastq.gz" --vcfmix no --gnomon no
 
     #Run the prediction pipelines
     cd ..
@@ -173,7 +185,7 @@ then
 
     #Now make sure the JSONs are the same with a pytest
     pip install pytest recursive_diff
-    pytest -vv
+    pytest -vv test_json.py
 
 
 else
