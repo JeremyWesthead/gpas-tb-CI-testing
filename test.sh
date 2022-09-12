@@ -9,12 +9,16 @@ cd kraken
 echo "Downloding Kraken"
 curl --progress-bar https://genome-idx.s3.amazonaws.com/kraken/k2_pluspf_16gb_20220607.tar.gz > kraken.tar.gz
 tar -xzvf kraken.tar.gz
+#Delete the tarball now it has been expanded to save on space
+rm kraken.tar.gz
 cd ..
 
 echo "Downloading Bowtie2"
 mkdir bowtie2
 curl --progress-bar https://genome-idx.s3.amazonaws.com/bt/hg19.zip > bowtie2.zip
 unzip bowtie2.zip
+#Remove the zip now it has been expanded to save on space
+rm bowtie2.zip
 cd ..
 
 
