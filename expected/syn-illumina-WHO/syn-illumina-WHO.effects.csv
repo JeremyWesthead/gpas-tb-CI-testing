@@ -27,7 +27,6 @@ syn-illumina-WHO,INH,katG,1441_indel,WHO-UCN-GTB-PCI-2021.7,U
 syn-illumina-WHO,CAP,tlyA,95_del_tgcgcatcgacgggctgccggcggtcaagccggccaccgccgtgtccga,WHO-UCN-GTB-PCI-2021.7,R
 syn-illumina-WHO,CAP,tlyA,95_del_49,WHO-UCN-GTB-PCI-2021.7,R
 syn-illumina-WHO,CAP,tlyA,95_indel,WHO-UCN-GTB-PCI-2021.7,U
-syn-illumina-WHO,STM,gid,G34G,WHO-UCN-GTB-PCI-2021.7,R
 syn-illumina-WHO,LEV,gyrA,A384V,WHO-UCN-GTB-PCI-2021.7,S
 syn-illumina-WHO,MXF,gyrA,A384V,WHO-UCN-GTB-PCI-2021.7,S
 syn-illumina-WHO,LEV,gyrA,S95T,WHO-UCN-GTB-PCI-2021.7,S
@@ -56,4 +55,5 @@ syn-illumina-WHO,LEV,gyrA,R442R,WHO-UCN-GTB-PCI-2021.7,S
 syn-illumina-WHO,LEV,gyrA,R448R,WHO-UCN-GTB-PCI-2021.7,S
 syn-illumina-WHO,STM,gid,54_del_tgctcggcggtacgccgaa,WHO-UCN-GTB-PCI-2021.7,U
 syn-illumina-WHO,STM,gid,54_indel,WHO-UCN-GTB-PCI-2021.7,U
+syn-illumina-WHO,STM,gid,54_del_19,WHO-UCN-GTB-PCI-2021.7,U
 syn-illumina-WHO,STM,gid,G34G,WHO-UCN-GTB-PCI-2021.7,S

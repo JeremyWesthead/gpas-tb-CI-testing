@@ -180,7 +180,7 @@ then
     echo
     echo "WHO mutations"
     #For whatever reason, some of these values are floats (.0), so use a python script instead of diff
-    python compareIgnoringFloat.py syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.mutations.csv expected/syn-illumina-WHO/syn-illumina-WHO.mutations.csv
+    python3 compareIgnoringFloat.py syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.mutations.csv expected/syn-illumina-WHO/syn-illumina-WHO.mutations.csv
     echo
     echo "WHO effects"
     diff <(sort syn-illumina-WHO/syn-illumina-WHO/syn-illumina-WHO.effects.csv) <(sort expected/syn-illumina-WHO/syn-illumina-WHO.effects.csv)
