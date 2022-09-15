@@ -318,11 +318,6 @@
           "PREDICTION": "R"
         },
         {
-          "GENE": "gid",
-          "MUTATION": "G34G",
-          "PREDICTION": "R"
-        },
-        {
           "GENE": NaN,
           "MUTATION": "gid@54_del_tgctcggcggtacgccgaa&gid@G34G",
           "PREDICTION": "R"
@@ -335,6 +330,11 @@
         {
           "GENE": "gid",
           "MUTATION": "54_indel",
+          "PREDICTION": "U"
+        },
+        {
+          "GENE": "gid",
+          "MUTATION": "54_del_19",
           "PREDICTION": "U"
         },
         {
@@ -510,12 +510,12 @@
       },
       {
         "GENE": "rrs",
-        "GENE_POSITION": 1483,
+        "GENE_POSITION": 1484,
         "MUTATION": "g1484t"
       },
       {
         "GENE": "rrs",
-        "GENE_POSITION": 513,
+        "GENE_POSITION": 514,
         "MUTATION": "a514c"
       },
       {
@@ -676,7 +676,7 @@
     ]
   },
   "meta": {
-    "UTC-datetime-run": "2022-09-12T13:46:31.304369",
+    "UTC-datetime-run": "2022-09-15T13:16:53.522062",
     "fields": {
       "EFFECTS": {
         "AMI": [

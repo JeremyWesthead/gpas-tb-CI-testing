@@ -31,6 +31,6 @@ syn-illumina-WHO,gyrA,R442R,,,442,cga,cgc,True,,,True,False,False,False,True,442
 syn-illumina-WHO,gyrA,R448R,,,448,cga,cgc,True,,,True,False,False,False,True,448,R,True,False,1
 syn-illumina-WHO,gyrA,A384V,,,384,gta,gca,True,,,True,False,False,False,True,384,V,False,True,1
 syn-illumina-WHO,gyrA,S95T,,,95,acc,agc,True,,,True,False,False,False,True,95,T,False,True,1
-syn-illumina-WHO,rrs,g1484t,1484,1473329,1483,t,g,False,,,False,False,False,False,True,,,False,False,0
-syn-illumina-WHO,rrs,a514c,514,1472359,513,c,a,False,,,False,False,False,False,True,,,False,False,0
+syn-illumina-WHO,rrs,g1484t,1484,1473329,1484,t,g,False,,,False,False,False,False,True,,,False,False,0
+syn-illumina-WHO,rrs,a514c,514,1472359,514,c,a,False,,,False,False,False,False,True,,,False,False,0
 syn-illumina-WHO,gyrA,c-34t,-34,7268,-34,t,c,True,,,False,False,False,True,True,,,False,False,0
