@@ -143,4 +143,3 @@ tuberculosis_amr_catalogues/
 #Some debug things
 **/*.sorted.csv
 *.csv
-*.json

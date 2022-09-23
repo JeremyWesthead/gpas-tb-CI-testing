@@ -6,7 +6,7 @@ Even without generating samples on each run, this will likely take 4h+ to comple
 ## Testing steps
 1. Generate synthetic TB samples with known variations
 2. Run these samples through `lodestone` to produce VCF files
-3. Run these samples through `gnomon` to produce an antibiogram
+3. Run these samples through `gnomonicus` to produce an antibiogram
 
 ## Test cases
 Currently there are a few test cases used. Most are derrived from clinical importance (such as XDR samples), but a few edge cases have been included from the WHO TB catalogue

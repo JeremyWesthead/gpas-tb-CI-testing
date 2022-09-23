@@ -164,42 +164,42 @@
         },
         {
           "GENE": NaN,
-          "MUTATION": "gyrA@A434A&gyrA@A445A&gyrA@E447E&gyrA@L440L&gyrA@R441R&gyrA@R442R&gyrA@R448R",
+          "MUTATION": "gyrA@A434A&gyrA@A445A&gyrA@E447E&gyrA@L440L&gyrA@R441R&gyrA@R442R&gyrA@R448R&gyrA@a1302g&gyrA@a1335c&gyrA@a1341g&gyrA@c1326g&gyrA@c1344g&gyrA@g1323c&gyrA@t1318c",
           "PREDICTION": "U"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "A434A",
+          "GENE": NaN,
+          "MUTATION": "gyrA@A434A&gyrA@a1302g",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "A445A",
+          "GENE": NaN,
+          "MUTATION": "gyrA@A445A&gyrA@a1335c",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "E447E",
+          "GENE": NaN,
+          "MUTATION": "gyrA@E447E&gyrA@a1341g",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "L440L",
+          "GENE": NaN,
+          "MUTATION": "gyrA@L440L&gyrA@t1318c",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "R441R",
+          "GENE": NaN,
+          "MUTATION": "gyrA@R441R&gyrA@g1323c",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "R442R",
+          "GENE": NaN,
+          "MUTATION": "gyrA@R442R&gyrA@c1326g",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "R448R",
+          "GENE": NaN,
+          "MUTATION": "gyrA@R448R&gyrA@c1344g",
           "PREDICTION": "S"
         },
         {
@@ -228,38 +228,38 @@
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "A434A",
+          "GENE": NaN,
+          "MUTATION": "gyrA@A434A&gyrA@a1302g",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "A445A",
+          "GENE": NaN,
+          "MUTATION": "gyrA@A445A&gyrA@a1335c",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "E447E",
+          "GENE": NaN,
+          "MUTATION": "gyrA@E447E&gyrA@a1341g",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "L440L",
+          "GENE": NaN,
+          "MUTATION": "gyrA@L440L&gyrA@t1318c",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "R441R",
+          "GENE": NaN,
+          "MUTATION": "gyrA@R441R&gyrA@g1323c",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "R442R",
+          "GENE": NaN,
+          "MUTATION": "gyrA@R442R&gyrA@c1326g",
           "PREDICTION": "S"
         },
         {
-          "GENE": "gyrA",
-          "MUTATION": "R448R",
+          "GENE": NaN,
+          "MUTATION": "gyrA@R448R&gyrA@c1344g",
           "PREDICTION": "S"
         },
         {
@@ -319,7 +319,7 @@
         },
         {
           "GENE": NaN,
-          "MUTATION": "gid@54_del_tgctcggcggtacgccgaa&gid@G34G",
+          "MUTATION": "gid@54_del_tgctcggcggtacgccgaa&gid@G34G&gid@g102c",
           "PREDICTION": "R"
         },
         {
@@ -338,8 +338,8 @@
           "PREDICTION": "U"
         },
         {
-          "GENE": "gid",
-          "MUTATION": "G34G",
+          "GENE": NaN,
+          "MUTATION": "gid@G34G&gid@g102c",
           "PREDICTION": "S"
         },
         {
@@ -623,7 +623,7 @@
       },
       {
         "NUCLEOTIDE_INDEX": 4408101,
-        "VARIANT": "4408101c>t"
+        "VARIANT": "4408101c>g"
       },
       {
         "NUCLEOTIDE_INDEX": 8603,
@@ -631,7 +631,7 @@
       },
       {
         "NUCLEOTIDE_INDEX": 8636,
-        "VARIANT": "8636a>g"
+        "VARIANT": "8636a>c"
       },
       {
         "NUCLEOTIDE_INDEX": 8642,
@@ -639,19 +639,19 @@
       },
       {
         "NUCLEOTIDE_INDEX": 8621,
-        "VARIANT": "8621g>a"
+        "VARIANT": "8619t>c"
       },
       {
         "NUCLEOTIDE_INDEX": 8624,
-        "VARIANT": "8624g>a"
+        "VARIANT": "8624g>c"
       },
       {
         "NUCLEOTIDE_INDEX": 8627,
-        "VARIANT": "8627c>a"
+        "VARIANT": "8627c>g"
       },
       {
         "NUCLEOTIDE_INDEX": 8645,
-        "VARIANT": "8645c>a"
+        "VARIANT": "8645c>g"
       },
       {
         "NUCLEOTIDE_INDEX": 8452,
@@ -676,7 +676,7 @@
     ]
   },
   "meta": {
-    "UTC-datetime-run": "2022-09-15T13:16:53.522062",
+    "UTC-datetime-run": "2022-09-23T09:17:58.411124",
     "fields": {
       "EFFECTS": {
         "AMI": [
@@ -779,6 +779,6 @@
       ]
     },
     "guid": "syn-illumina-WHO",
-    "version": "1.0.0"
+    "version": "1.1.0"
   }
 }

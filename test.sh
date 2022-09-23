@@ -47,7 +47,7 @@ python3 -m pip install --upgrade pip
 #This also needs kraken and bowtie...
 git clone https://github.com/Pathogen-Genomics-Cymru/tb-pipeline.git
 
-#tb-predict-pipeline (gnomon)
+#tb-predict-pipeline (gnomonicus)
 git clone https://github.com/oxfordmmm/tb-predict-pipeline.git
 
 #tuberculosis-amr-catalogues (for catalogues)
@@ -105,7 +105,7 @@ then
     echo 
 
     #Run the pipelines now we have samples
-    #Don't use the `tb-pipeline` gnomon predictions due to version changes
+    #Don't use the `tb-pipeline` gnomonicus predictions due to version changes
     #TODO: update this when changed
     cd ../tb-pipeline
     export NXF_VER=20.11.0-edge

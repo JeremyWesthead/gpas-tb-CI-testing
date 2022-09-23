@@ -39,8 +39,8 @@ def checkJSONEq(suffix: str) -> None:
     Args:
         suffix (str): Suffix of the test. One of MDR, preXDR, XDR and WHO
     '''
-    expected = sortValues(json.load(open(f"expected/syn-illumina-{suffix}/syn-illumina-{suffix}.gnomon-out.json")))
-    actual = sortValues(json.load(open(f"syn-illumina-{suffix}/syn-illumina-{suffix}/syn-illumina-{suffix}.gnomon-out.json")))
+    expected = sortValues(json.load(open(f"expected/syn-illumina-{suffix}/syn-illumina-{suffix}.gnomonicus-out.json")))
+    actual = sortValues(json.load(open(f"syn-illumina-{suffix}/syn-illumina-{suffix}/syn-illumina-{suffix}.gnomonicus-out.json")))
 
     #Remove datetime as this is unreplicable
     del expected['meta']['UTC-datetime-run']
