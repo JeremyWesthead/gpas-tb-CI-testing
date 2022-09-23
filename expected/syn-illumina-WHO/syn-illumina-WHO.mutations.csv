@@ -34,3 +34,11 @@ syn-illumina-WHO,gyrA,S95T,,,95,acc,agc,True,,,True,False,False,False,True,95,T,
 syn-illumina-WHO,rrs,g1484t,1484,1473329,1484,t,g,False,,,False,False,False,False,True,,,False,False,0
 syn-illumina-WHO,rrs,a514c,514,1472359,514,c,a,False,,,False,False,False,False,True,,,False,False,0
 syn-illumina-WHO,gyrA,c-34t,-34,7268,-34,t,c,True,,,False,False,False,True,True,,,False,False,0
+syn-illumina-WHO,gid,g102a,102.0,4408101.0,102,a,g,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,a1302g,1302.0,8603.0,1302,g,a,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,g1320a,1320.0,8621.0,1320,a,g,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,g1323a,1323.0,8624.0,1323,a,g,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,c1326a,1326.0,8627.0,1326,a,c,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,a1335g,1335.0,8636.0,1335,g,a,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,a1341g,1341.0,8642.0,1341,g,a,True,,,True,False,False,False,True,,,False,False,0
+WHO_demo,gyrA,c1344a,1344.0,8645.0,1344,a,c,True,,,True,False,False,False,True,,,False,False,0

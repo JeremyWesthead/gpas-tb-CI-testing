@@ -522,6 +522,46 @@
         "GENE": "gyrA",
         "GENE_POSITION": -34,
         "MUTATION": "c-34t"
+      },
+      {
+        "GENE": "gid",
+        "GENE_POSITION": 102,
+        "MUTATION": "g102a"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1302,
+        "MUTATION": "a1302g"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1320,
+        "MUTATION": "g1320a"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1323,
+        "MUTATION": "g1323a"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1326,
+        "MUTATION": "c1326a"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1335,
+        "MUTATION": "a1335g"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1341,
+        "MUTATION": "a1341g"
+      },
+      {
+        "GENE": "gyrA",
+        "GENE_POSITION": 1344,
+        "MUTATION": "c1344a"
       }
     ],
     "VARIANTS": [
@@ -676,7 +716,7 @@
     ]
   },
   "meta": {
-    "UTC-datetime-run": "2022-09-23T09:17:58.411124",
+    "UTC-datetime-run": "2022-09-23T09:32:43.441692",
     "fields": {
       "EFFECTS": {
         "AMI": [
